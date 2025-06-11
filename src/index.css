@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* swiper pagination styles */
+.swiper-pagination-progressbar-fill {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.swiper-pagination-progressbar {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev {
+  color: black;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: black;
+}
